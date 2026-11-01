@@ -1,8 +1,8 @@
 function A = assemble(aP, aE, aW, aN, aS)
-% Sparse matrix of the five-point equation
+% Sparse matrix of the five-point equation (2.2) (Section 6.2)
 %   aP*phi_P - aE*phi_E - aW*phi_W - aN*phi_N - aS*phi_S = b.
 % Node (i,j) of an m x n array gets index k = i + (j-1)*m;
-% its neighbours: E = k+1, W = k-1, N = k+m, S = k-m (Section 6.2).
+% its neighbours: E = k+1, W = k-1, N = k+m, S = k-m.
   [m, n] = size(aP);
   k  = reshape(1:m*n, m, n);
   kE = k(1:m-1,:);

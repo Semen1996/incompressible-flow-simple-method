@@ -4,7 +4,7 @@
 %   the SIMPLE method (Patankar, Ch. 6) on a staggered grid. Discretization:
 %   finite volume method; convection: Patankar's power-law scheme.
 %
-%   Section numbers in the comments refer to the article physics-simple.md.
+%   Section numbers in the comments refer to the article docs/physics.md.
 
 clear all; close all;
 

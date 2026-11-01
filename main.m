@@ -2,7 +2,8 @@
 %
 %   The steady incompressible Navier–Stokes equations are solved with
 %   the SIMPLE method (Patankar, Ch. 6) on a staggered grid. Discretization:
-%   finite volume method; convection: Patankar's power-law scheme.
+%   finite volume method; convection: Patankar's generalized formula with
+%   the scheme selected by the parameter scheme (Section 2.3).
 %
 %   Section numbers in the comments refer to the article docs/physics.md.
 

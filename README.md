@@ -7,7 +7,7 @@ An Octave/MATLAB program that solves the steady incompressible Navier–Stokes e
 - Patankar's generalized convection–diffusion formula with a choice of scheme: power-law, hybrid, upwind or central;
 - under-relaxation of velocity and pressure.
 
-The method is derived step by step in the article [docs/physics-en.md](docs/physics-en.md): the equations, discretization, the staggered grid, the SIMPLE algorithm, boundary conditions, linear solvers, under-relaxation and the convergence criterion. Comments in the code cite the article's sections and equations.
+The method is derived step by step in the article [docs/physics-en.md](docs/physics-en.md): the equations, discretization, the staggered grid, the SIMPLE algorithm, boundary conditions, linear solvers, under-relaxation and the convergence criterion. Comments in the code cite the article's sections and equations. The Russian original is [docs/physics.md](docs/physics.md); its section numbering is the same.
 
 ## Parameters
 

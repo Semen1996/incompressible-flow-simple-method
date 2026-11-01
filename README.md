@@ -50,6 +50,6 @@ One SIMPLE iteration:
 
 1. Patankar S. V. _Numerical Heat Transfer and Fluid Flow._ Hemisphere, 1980.
 2. Ferziger J. H., Perić M. _Computational Methods for Fluid Dynamics._ 3rd ed., Springer, 2002.
-3. [Simulating fluid with Chorin's method](https://github.com/Semen1996/incompressible-flow-chorin-method) (in Russian): the same class of problems solved with the projection method.
+3. [Simulating fluid with Chorin's method](https://github.com/Semen1996/incompressible-flow-chorin-method): the same class of problems solved with the projection method.
 
 The full reference list is at the end of the [article](docs/physics-en.md).
